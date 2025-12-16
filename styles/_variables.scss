@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+
+@mixin btn-primary {
+  background-color: #4f46ba;
+  width: 145px;
+  height: 52px;
+  padding: 16px 36px;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+@mixin anchor-text-decoration {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  
+}

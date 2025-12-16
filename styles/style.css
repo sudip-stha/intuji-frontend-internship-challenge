@@ -1,0 +1,193 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(to right, #c9e7f2, #62bada);
+  position: relative;
+}
+
+nav {
+  width: 1202px;
+  display: flex;
+  gap: 320px;
+  align-items: center;
+  padding: 44px 123px 0 115px;
+}
+
+.nav-list {
+  width: 322px;
+  height: 19px;
+  display: flex;
+  gap: 39px;
+  list-style: none;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.nav-list .nav-list-item {
+  display: flex;
+  gap: 10px;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.btn-auth {
+  display: flex;
+  gap: 50px;
+}
+.btn-auth button {
+  background-color: #4f46ba;
+  width: 145px;
+  height: 52px;
+  padding: 16px 36px;
+  border: none;
+}
+.btn-auth button:hover {
+  cursor: pointer;
+}
+.btn-auth button .btn-start-free {
+  color: white;
+}
+.btn-auth a {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.header-hero {
+  display: flex;
+  gap: 17px;
+  margin-left: 115px;
+}
+
+.hero-content {
+  width: 646px;
+  height: 521px;
+  padding-top: 140px;
+}
+.hero-content h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-bottom: 22px;
+}
+.hero-content p {
+  font-family: "Manrope", sans-serif;
+  font-size: 1rem;
+  color: #64607d;
+  width: 400px;
+  line-height: 1.5;
+  margin-bottom: 56px;
+}
+.hero-content .btn-wrapper {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 53px;
+}
+.hero-content .btn-wrapper button {
+  background-color: #4f46ba;
+  width: 145px;
+  height: 52px;
+  padding: 16px 36px;
+  border: none;
+}
+.hero-content .btn-wrapper button:hover {
+  cursor: pointer;
+}
+.hero-content .btn-wrapper button {
+  border-radius: 47px;
+  background-color: #3734A9;
+}
+.hero-content .btn-wrapper button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  color: white;
+}
+.hero-content .btn-wrapper .btn-see-works {
+  display: flex;
+  align-items: center;
+}
+.hero-content .btn-wrapper .btn-see-works a {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  margin-left: 11px;
+  color: #3734a9;
+}
+.hero-content .feature-list {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 98px;
+}
+.hero-content .feature-list .feature-one {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.hero-content .feature-list .feature-one a {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  color: #757095;
+}
+.hero-content .feature-list .feature-two {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-content .feature-list .feature-two a {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  color: #757095;
+}
+
+.hero-image img {
+  width: 508px;
+  height: 966px;
+}
+
+.decoration-design1 {
+  position: absolute;
+  top: 675px;
+}
+
+.decoration-design2 {
+  position: absolute;
+  top: 275px;
+  right: 0px;
+}
+
+.decoration-design3 {
+  position: absolute;
+  top: 735px;
+  right: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
