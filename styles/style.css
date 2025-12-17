@@ -244,23 +244,27 @@ main {
   line-height: 1.8rem;
 }
 
-.second-section-testimonial {
+.second-section-testimonial,
+.fifth-section-testimonial {
   width: 24.9rem;
   height: 11.2rem;
   border-radius: 20px;
   background-color: rgba(196, 196, 196, 0.3);
 }
-.second-section-testimonial img {
+.second-section-testimonial img,
+.fifth-section-testimonial img {
   position: relative;
   top: -20px;
   left: 35px;
 }
-.second-section-testimonial p {
+.second-section-testimonial p,
+.fifth-section-testimonial p {
   font: 700 0.885rem/1.3rem "Manrope", sans-serif;
   width: 21rem;
   margin: -10px auto;
 }
-.second-section-testimonial .speaker {
+.second-section-testimonial .speaker,
+.fifth-section-testimonial .speaker {
   margin-top: 28px;
 }
 
@@ -306,53 +310,287 @@ main {
   height: 2.6rem;
 }
 
-.main-fourth-section {
+.main-fourth-section,
+.main-fifth-section {
   display: flex;
   gap: 0.7rem;
   position: relative;
   margin-top: 8rem;
   margin-left: 9.4rem;
 }
-.main-fourth-section .decoration-image {
+.main-fourth-section .decoration-image,
+.main-fifth-section .decoration-image {
   position: absolute;
   left: 31rem;
   top: -1.2rem;
 }
-.main-fourth-section .payment-track-image {
+.main-fourth-section .payment-track-image,
+.main-fifth-section .payment-track-image {
   width: 45rem;
   height: 39.7rem;
 }
+.main-fourth-section .fifth-section-image,
+.main-fifth-section .fifth-section-image {
+  position: absolute;
+  top: -10.5rem;
+  left: 31rem;
+  width: 42rem;
+}
 
-.fourth-section-content {
+.fourth-section-content,
+.fifth-section-content {
   width: 33rem;
   height: 35.4rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.fourth-section-content h1 {
+.fourth-section-content h1,
+.fifth-section-content h1 {
   font: 900 3.1rem/1.1 "Manrope", sans-serif;
   margin-bottom: 1.4rem;
 }
-.fourth-section-content .first-paragraph {
+.fourth-section-content .first-paragraph,
+.fifth-section-content .first-paragraph {
   font: 900 0.9rem "Manrope", sans-serif;
   color: #3734a9;
 }
-.fourth-section-content .second-paragraph {
+.fourth-section-content .second-paragraph,
+.fifth-section-content .second-paragraph {
   width: 31rem;
   font: 500 1.2rem/2rem "Manrope", sans-serif;
   color: #64607d;
 }
-.fourth-section-content .second-paragraph li {
+.fourth-section-content .second-paragraph li,
+.fifth-section-content .second-paragraph li {
   list-style: none;
   margin-bottom: 0.5rem;
 }
-.fourth-section-content .second-paragraph img {
+.fourth-section-content .second-paragraph img,
+.fifth-section-content .second-paragraph img {
   width: 1.4rem;
   margin-right: 9px;
 }
-.fourth-section-content hr {
+.fourth-section-content hr,
+.fifth-section-content hr {
   margin: 0.7rem 0;
+}
+
+.main-fifth-section {
+  margin-top: 2.5rem;
+  margin-left: 12rem;
+}
+
+.fifth-section-content h1 {
+  margin-bottom: 0.1rem;
+}
+.fifth-section-content .second-paragraph {
+  width: 28rem;
+}
+
+.fifth-section-testimonial {
+  width: 29.9rem;
+  height: 9.5rem;
+  margin-top: 2.2rem;
+}
+.fifth-section-testimonial img {
+  top: -17px;
+  left: 28px;
+  width: 2.5rem;
+}
+.fifth-section-testimonial p {
+  width: 27rem;
+}
+
+.main-sixth-section {
+  background-color: #c9e7f2;
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  width: 100%;
+  position: relative;
+}
+.main-sixth-section .sixth-decoration-design {
+  position: absolute;
+  left: 0rem;
+  top: 41rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+}
+.card-container .division-card {
+  background-color: #c9e7f2;
+  border: none;
+  display: flex;
+  gap: 2.1rem;
+  padding-left: 0rem;
+}
+.card-container .division-card .sub-card {
+  width: 23.75rem;
+  height: 9.8rem;
+  border: 1px solid #abc8d2;
+  border-radius: 20px;
+  background-color: white;
+  padding: 2.265rem 2.3rem 2.1rem 1.975rem;
+}
+.card-container .division-card .sub-card h4 {
+  width: 19rem;
+  font: 900 1.2rem/1.6 "Manrope", sans-serif;
+}
+
+.sixth-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.sixth-section-container h1 {
+  font: 900 4.1rem "Manrope", sans-serif;
+}
+.sixth-section-container p {
+  font: 600 1rem/1.6 "Manrope", sans-serif;
+  width: 36rem;
+  margin-bottom: 2.1rem;
+}
+
+.sixth-section-card {
+  width: 23.75rem;
+  height: 22rem;
+  border: 1px solid #abc8d2;
+  border-radius: 20px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+  background-color: white;
+  text-align: start;
+  padding-left: 1.9rem;
+}
+.sixth-section-card .card-title {
+  width: 18rem;
+  font: 900 1.3rem/2rem "Manrope", sans-serif;
+}
+.sixth-section-card .card-text {
+  width: 18rem;
+  font: 500 0.9rem/1.6rem "Manrope", sans-serif;
+  color: black;
+}
+.sixth-section-card .card-icon {
+  width: 3.1rem;
+  height: 2.6rem;
+  margin-top: 3.3rem;
+  margin-bottom: 2rem;
+}
+
+.main-seventh-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin: 8rem 9.8rem;
+  position: relative;
+}
+.main-seventh-section h1 {
+  font: 900 4.4rem "Manrope", sans-serif;
+}
+.main-seventh-section .seventh-section-paragraph {
+  font: 500 1rem "Manrope", sans-serif;
+  width: 37rem;
+  margin-bottom: 1.3rem;
+}
+.main-seventh-section .seventh-decoration-design {
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+}
+
+.seventh-section-testimonial {
+  width: 43.6rem;
+  height: 25rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  position: relative;
+  padding: 4.8rem 2rem;
+}
+.seventh-section-testimonial .double-quote {
+  width: 3.5rem;
+  position: absolute;
+  top: -1.4rem;
+  left: 2rem;
+}
+.seventh-section-testimonial .card-content {
+  width: 22rem;
+}
+.seventh-section-testimonial .card-content p {
+  font: 600 1.45rem/1.4 "Manrope", sans-serif;
+  margin-bottom: 2.5rem;
+}
+.seventh-section-testimonial .card-content .speaker {
+  font: 500 1.1rem/1.4 "Manrope", sans-serif;
+}
+.seventh-section-testimonial .card-content .seventh-section-testimonial-image {
+  width: 15rem;
+  height: 21.875rem;
+}
+
+.seventh-section-testimonial-list {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: nowrap;
+}
+
+.main-eighth-section {
+  height: 16rem;
+  background-color: #3734a9;
+  display: flex;
+  gap: 1.8rem;
+  justify-content: center;
+  margin-top: 9.3rem;
+}
+.main-eighth-section hr {
+  border: 2px solid #3d3d3d;
+}
+.main-eighth-section .eighth-section-paragraph {
+  font: 400 1.1rem/1.9 "Manrope", sans-serif;
+  color: white;
+  width: 9rem;
+  margin: 5.1rem 0 5.1rem -4.5rem;
+}
+.main-eighth-section .first-stat {
+  margin-left: 2.6rem;
+}
+.main-eighth-section .second-stat {
+  margin-left: 7.6rem;
+}
+.main-eighth-section .third-stat {
+  margin-left: 6rem;
+  position: relative;
+}
+.main-eighth-section .third-stat .eighth-decoration-design {
+  position: absolute;
+  right: -12.4rem;
+  top: -3rem;
+}
+
+.eighth-section-stats {
+  margin: 4.3rem 0 3.9rem 0;
+  color: white;
+}
+.eighth-section-stats h1 {
+  font: 900 4.5rem/1.5 "Manrope", sans-serif;
+}
+
+.stat-title {
+  display: flex;
+  gap: 1rem;
+}
+.stat-title p {
+  font: 400 1.7rem/0.9 "Manrope", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
