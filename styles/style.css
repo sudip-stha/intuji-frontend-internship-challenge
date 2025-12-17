@@ -18,18 +18,18 @@ header {
 }
 
 nav {
-  width: 1202px;
+  width: 75.1rem;
   display: flex;
-  gap: 320px;
+  gap: 20rem;
   align-items: center;
-  padding: 44px 123px 0 115px;
+  padding: 2.75rem 7.6rem 0 7.1rem;
 }
 
 .nav-list {
-  width: 322px;
-  height: 19px;
+  width: 20.1rem;
+  height: 1.18rem;
   display: flex;
-  gap: 39px;
+  gap: 2.4rem;
   list-style: none;
 }
 .nav-list li a {
@@ -41,7 +41,7 @@ nav {
 }
 .nav-list .nav-list-item {
   display: flex;
-  gap: 10px;
+  gap: 0.62rem;
 }
 
 .logo {
@@ -57,7 +57,7 @@ nav {
 
 .btn-auth {
   display: flex;
-  gap: 50px;
+  gap: 3.1rem;
 }
 .btn-auth button {
   background-color: #4f46ba;
@@ -85,29 +85,29 @@ nav {
 
 .header-hero {
   display: flex;
-  gap: 17px;
-  margin-left: 115px;
+  gap: 1rem;
+  margin-left: 7.2rem;
 }
 
 .hero-content {
-  width: 646px;
-  height: 521px;
-  padding-top: 140px;
+  width: 40.3rem;
+  height: 32.56rem;
+  padding-top: 8.75rem;
 }
 .hero-content h1 {
   font: 900 3.5rem "Manrope", sans-serif;
-  margin-bottom: 22px;
+  margin-bottom: 1.3rem;
 }
 .hero-content p {
   font: 1rem/1.5 "Manrope", sans-serif;
   color: #64607d;
-  width: 400px;
-  margin-bottom: 56px;
+  width: 25rem;
+  margin-bottom: 3.5rem;
 }
 .hero-content .btn-wrapper {
   display: flex;
-  gap: 50px;
-  margin-bottom: 53px;
+  gap: 3.1rem;
+  margin-bottom: 3.3rem;
 }
 .hero-content .btn-wrapper button {
   background-color: #4f46ba;
@@ -137,17 +137,17 @@ nav {
   text-decoration: none;
   color: black;
   font-family: "Manrope", sans-serif;
-  margin-left: 11px;
+  margin-left: 0.68rem;
   color: #3734a9;
 }
 .hero-content .feature-list {
   display: flex;
-  gap: 25px;
-  margin-bottom: 98px;
+  gap: 1.5rem;
+  margin-bottom: 6.12rem;
 }
 .hero-content .feature-list .feature-one {
   display: flex;
-  gap: 10px;
+  gap: 0.6rem;
   align-items: center;
 }
 .hero-content .feature-list .feature-one a {
@@ -159,7 +159,7 @@ nav {
 .hero-content .feature-list .feature-two {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.6rem;
 }
 .hero-content .feature-list .feature-two a {
   text-decoration: none;
@@ -175,18 +175,18 @@ nav {
 
 .decoration-design1 {
   position: absolute;
-  top: 675px;
+  top: 42.1rem;
 }
 
 .decoration-design2 {
   position: absolute;
-  top: 275px;
+  top: 17.1rem;
   right: 0px;
 }
 
 .decoration-design3 {
   position: absolute;
-  top: 735px;
+  top: 45.9rem;
   right: 0px;
 }
 
@@ -204,19 +204,19 @@ main {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 866px;
+  top: 54.12rem;
 }
 .main-first-section h2 {
   font: 500 1.375rem "Manrope", sans-serif;
 }
 .main-first-section div {
   display: flex;
-  gap: 50px;
-  margin-top: 36px;
+  gap: 3.1rem;
+  margin-top: 2.25rem;
 }
 .main-first-section div .company-logo {
-  width: 145px;
-  height: 35px;
+  width: 9.06rem;
+  height: 2.1rem;
 }
 
 .main-second-section {
@@ -254,18 +254,18 @@ main {
 .second-section-testimonial img,
 .fifth-section-testimonial img {
   position: relative;
-  top: -20px;
-  left: 35px;
+  top: -1.25rem;
+  left: 2.1rem;
 }
 .second-section-testimonial p,
 .fifth-section-testimonial p {
   font: 700 0.885rem/1.3rem "Manrope", sans-serif;
   width: 21rem;
-  margin: -10px auto;
+  margin: -0.6rem auto;
 }
 .second-section-testimonial .speaker,
 .fifth-section-testimonial .speaker {
-  margin-top: 28px;
+  margin-top: 1.75rem;
 }
 
 .main-third-section {
@@ -369,7 +369,7 @@ main {
 .fourth-section-content .second-paragraph img,
 .fifth-section-content .second-paragraph img {
   width: 1.4rem;
-  margin-right: 9px;
+  margin-right: 0.56rem;
 }
 .fourth-section-content hr,
 .fifth-section-content hr {
@@ -394,8 +394,8 @@ main {
   margin-top: 2.2rem;
 }
 .fifth-section-testimonial img {
-  top: -17px;
-  left: 28px;
+  top: -1.06rem;
+  left: 1.75rem;
   width: 2.5rem;
 }
 .fifth-section-testimonial p {
@@ -551,6 +551,7 @@ main {
   gap: 1.8rem;
   justify-content: center;
   margin-top: 9.3rem;
+  position: relative;
 }
 .main-eighth-section hr {
   border: 2px solid #3d3d3d;
@@ -559,7 +560,7 @@ main {
   font: 400 1.1rem/1.9 "Manrope", sans-serif;
   color: white;
   width: 9rem;
-  margin: 5.1rem 0 5.1rem -4.5rem;
+  margin: 5.1rem 0 5.1rem 2.3rem;
 }
 .main-eighth-section .first-stat {
   margin-left: 2.6rem;
@@ -569,12 +570,11 @@ main {
 }
 .main-eighth-section .third-stat {
   margin-left: 6rem;
-  position: relative;
 }
-.main-eighth-section .third-stat .eighth-decoration-design {
+.main-eighth-section .eighth-decoration-design {
   position: absolute;
-  right: -12.4rem;
-  top: -3rem;
+  right: 0rem;
+  top: 1rem;
 }
 
 .eighth-section-stats {
@@ -591,6 +591,107 @@ main {
 }
 .stat-title p {
   font: 400 1.7rem/0.9 "Manrope", sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  margin: 9.3rem 7.5rem 0;
+  border-bottom: 2px solid #e5e5ea;
+  padding-bottom: 3.6rem;
+}
+
+.AR-Shakir-details h4 {
+  font: 700 1.2rem "Gilroy-Bold", sans-serif;
+  color: #1b1c31;
+  margin-bottom: 1.1rem;
+}
+.AR-Shakir-details p {
+  font: 500 1rem "Manrope", sans-serif;
+  width: 13.3rem;
+  color: #757095;
+  margin-bottom: 1.9rem;
+}
+.AR-Shakir-details ul {
+  width: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.company-details-navigation h4 {
+  font: 700 1.2rem "Manrope", sans-serif;
+  color: #181433;
+  margin-bottom: 1.6rem;
+}
+.company-details-navigation ul {
+  list-style: none;
+}
+.company-details-navigation ul li {
+  margin-bottom: 1.1rem;
+}
+.company-details-navigation a {
+  text-decoration: none;
+  color: black;
+  font-family: "Manrope", sans-serif;
+  color: #181433;
+  font: 600 1rem "Manrope", sans-serif;
+}
+
+.resources-list h4 {
+  font: 700 1.2rem "Manrope", sans-serif;
+  color: #181433;
+  margin-bottom: 1.6rem;
+}
+.resources-list ul {
+  list-style: none;
+}
+.resources-list ul li {
+  margin-bottom: 0.8rem;
+  font: 500 1rem "Manrope", sans-serif;
+}
+
+.company-join-section h4 {
+  font: 700 1.2rem "Manrope", sans-serif;
+  color: #181433;
+  margin-bottom: 1.6rem;
+}
+.company-join-section input {
+  width: 16rem;
+  height: 3.25rem;
+  padding: 0.9rem 0.9rem;
+  background-color: #eeeeff;
+  border: none;
+}
+.company-join-section input::placeholder {
+  font: 500 0.7rem "Manrope", sans-serif;
+  color: rgba(24, 20, 51, 0.2);
+}
+.company-join-section .footer-input-button-group {
+  display: flex;
+}
+.company-join-section button {
+  height: 3.25rem;
+  font: 500 1rem "Manrope", sans-serif;
+  padding: 0.8rem 2.6rem;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1.4rem;
+}
+.company-join-section p {
+  font: 500 1rem "Manrope", sans-serif;
+  color: #181433;
+}
+
+.footer-copywrite-section {
+  font: 500 1rem "Manrope", sans-serif;
+  text-align: center;
+  color: #181433;
+  margin: 2.5rem auto 3.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

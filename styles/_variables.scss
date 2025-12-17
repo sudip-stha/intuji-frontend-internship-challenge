@@ -16,3 +16,8 @@
   font-family: "Manrope", sans-serif;
   
 }
+@mixin footer-heading-text-style{
+   font: 700 1.2rem "Manrope", sans-serif;
+    color: #181433;
+    margin-bottom: 1.6rem;
+}

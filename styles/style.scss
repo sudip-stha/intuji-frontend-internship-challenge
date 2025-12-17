@@ -18,17 +18,17 @@ header {
   position: relative;
 }
 nav {
-  width: 1202px;
+  width: 75.1rem;
   display: flex;
-  gap: 320px;
+  gap: 20rem;
   align-items: center;
-  padding: 44px 123px 0 115px;
+  padding: 2.75rem 7.6rem 0 7.1rem;
 }
 .nav-list {
-  width: 322px;
-  height: 19px;
+  width: 20.1rem;
+  height: 1.18rem;
   display: flex;
-  gap: 39px;
+  gap: 2.4rem;
   list-style: none;
 
   li {
@@ -40,7 +40,7 @@ nav {
   }
   .nav-list-item {
     display: flex;
-    gap: 10px;
+    gap: 0.62rem;
   }
 }
 .logo {
@@ -53,7 +53,7 @@ nav {
 }
 .btn-auth {
   display: flex;
-  gap: 50px;
+  gap: 3.1rem;
 
   button {
     @include btn-primary;
@@ -74,29 +74,29 @@ nav {
 
 .header-hero {
   display: flex;
-  gap: 17px;
-  margin-left: 115px;
+  gap: 1rem;
+  margin-left: 7.2rem;
 }
 
 .hero-content {
-  width: 646px;
-  height: 521px;
-  padding-top: 140px;
+  width: 40.3rem;
+  height: 32.56rem;
+  padding-top: 8.75rem;
   h1 {
     font: 900 3.5rem "Manrope", sans-serif;
-    margin-bottom: 22px;
+    margin-bottom: 1.3rem;
   }
   p {
     font: 1rem/1.5 "Manrope", sans-serif;
     color: #64607d;
-    width: 400px;
-    margin-bottom: 56px;
+    width: 25rem;
+    margin-bottom: 3.5rem;
   }
 
   .btn-wrapper {
     display: flex;
-    gap: 50px;
-    margin-bottom: 53px;
+    gap: 3.1rem;
+    margin-bottom: 3.3rem;
 
     button {
       @include btn-primary;
@@ -113,18 +113,18 @@ nav {
 
       a {
         @include anchor-text-decoration;
-        margin-left: 11px;
+        margin-left: 0.68rem;
         color: #3734a9;
       }
     }
   }
   .feature-list {
     display: flex;
-    gap: 25px;
-    margin-bottom: 98px;
+    gap: 1.5rem;
+    margin-bottom: 6.12rem;
     .feature-one {
       display: flex;
-      gap: 10px;
+      gap: 0.6rem;
       align-items: center;
       a {
         @include anchor-text-decoration;
@@ -134,7 +134,7 @@ nav {
     .feature-two {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 0.6rem;
 
       a {
         @include anchor-text-decoration;
@@ -151,16 +151,16 @@ nav {
 }
 .decoration-design1 {
   position: absolute;
-  top: 675px;
+  top: 42.1rem;
 }
 .decoration-design2 {
   position: absolute;
-  top: 275px;
+  top: 17.1rem;
   right: 0px;
 }
 .decoration-design3 {
   position: absolute;
-  top: 735px;
+  top: 45.9rem;
   right: 0px;
 }
 
@@ -178,7 +178,7 @@ main {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 866px;
+  top: 54.12rem;
 
   h2 {
     font: 500 1.375rem "Manrope", sans-serif;
@@ -186,11 +186,11 @@ main {
 
   div {
     display: flex;
-    gap: 50px;
-    margin-top: 36px;
+    gap: 3.1rem;
+    margin-top: 2.25rem;
     .company-logo {
-      width: 145px;
-      height: 35px;
+      width: 9.06rem;
+      height: 2.1rem;
     }
   }
 }
@@ -228,16 +228,16 @@ main {
   background-color: rgba($color: #c4c4c4, $alpha: 0.3);
   img {
     position: relative;
-    top: -20px;
-    left: 35px;
+    top: -1.25rem;
+    left: 2.1rem;
   }
   p {
     font: 700 0.885rem/1.3rem "Manrope", sans-serif;
     width: 21rem;
-    margin: -10px auto;
+    margin: -0.6rem auto;
   }
   .speaker {
-    margin-top: 28px;
+    margin-top: 1.75rem;
   }
 }
 
@@ -334,7 +334,7 @@ main {
     }
     img {
       width: 1.4rem;
-      margin-right: 9px;
+      margin-right: 0.56rem;
     }
   }
   hr {
@@ -360,8 +360,8 @@ main {
   height: 9.5rem;
   margin-top: 2.2rem;
   img {
-    top: -17px;
-    left: 28px;
+    top: -1.06rem;
+    left: 1.75rem;
     width: 2.5rem;
   }
   p {
@@ -517,6 +517,7 @@ main {
   gap: 1.8rem;
   justify-content: center;
   margin-top: 9.3rem;
+  position: relative;
   hr {
     border: 2px solid #3d3d3d;
   }
@@ -524,7 +525,7 @@ main {
     font: 400 1.1rem/1.9 "Manrope", sans-serif;
     color: white;
     width: 9rem;
-    margin: 5.1rem 0 5.1rem -4.5rem;
+    margin: 5.1rem 0 5.1rem 2.3rem;
   }
   .first-stat {
     margin-left: 2.6rem;
@@ -534,12 +535,11 @@ main {
   }
   .third-stat {
     margin-left: 6rem;
-    position: relative;
-    .eighth-decoration-design {
-      position: absolute;
-      right: -12.4rem;
-      top: -3rem;
-    }
+  }
+  .eighth-decoration-design {
+    position: absolute;
+    right: 0rem;
+    top: 1rem;
   }
 }
 .eighth-section-stats {
@@ -555,4 +555,107 @@ main {
   p {
     font: 400 1.7rem/0.9 "Manrope", sans-serif;
   }
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  margin: 9.3rem 7.5rem 0;
+  border-bottom: 2px solid #e5e5ea;
+  padding-bottom: 3.6rem;
+ 
+}
+.AR-Shakir-details {
+  h4 {
+    font: 700 1.2rem "Gilroy-Bold", sans-serif;
+    color: #1b1c31;
+    margin-bottom: 1.1rem;
+  }
+  p {
+    font: 500 1rem "Manrope", sans-serif;
+    width: 13.3rem;
+    color: #757095;
+    margin-bottom: 1.9rem;
+  }
+  ul {
+    width: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+  }
+}
+
+.company-details-navigation {
+  h4 {
+    @include footer-heading-text-style;
+  }
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: 1.1rem;
+    }
+  }
+
+  a {
+    @include anchor-text-decoration;
+    color: #181433;
+    font: 600 1rem "Manrope", sans-serif;
+  }
+}
+
+.resources-list {
+  h4 {
+    @include footer-heading-text-style;
+  }
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: 0.8rem;
+      font: 500 1rem "Manrope", sans-serif;
+    }
+  }
+}
+
+.company-join-section {
+  h4 {
+    @include footer-heading-text-style;
+  }
+  input {
+    width: 16rem;
+    height: 3.25rem;
+    padding: 0.9rem 0.9rem;
+    background-color: #eeeeff;
+    border: none;
+    &::placeholder {
+      font: 500 0.7rem "Manrope", sans-serif;
+      color: rgba($color: #181433, $alpha: 0.2);
+    }
+  }
+
+  .footer-input-button-group {
+    display: flex;
+  }
+  button {
+    height: 3.25rem;
+    font: 500 1rem "Manrope", sans-serif;
+    padding: 0.8rem 2.6rem;
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1.4rem;
+  }
+  p {
+    font: 500 1rem "Manrope", sans-serif;
+    color: #181433;
+  }
+}
+
+.footer-copywrite-section {
+  font: 500 1rem "Manrope", sans-serif;
+  text-align: center;
+  color: #181433;
+  margin: 2.5rem auto 3.6rem;
 }
