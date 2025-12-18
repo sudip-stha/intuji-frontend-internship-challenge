@@ -18,15 +18,18 @@ header {
 }
 
 nav {
-  width: 75.1rem;
+  width: 1202px;
   display: flex;
   gap: 20rem;
   align-items: center;
   padding: 2.75rem 7.6rem 0 7.1rem;
 }
+nav .menu-bar {
+  display: none;
+}
 
 .nav-list {
-  width: 20.1rem;
+  width: 322px;
   height: 1.18rem;
   display: flex;
   gap: 2.4rem;
@@ -169,8 +172,8 @@ nav {
 }
 
 .hero-image img {
-  width: 31.75rem;
-  height: 60.375rem;
+  width: 508px;
+  height: 966px;
 }
 
 .decoration-design1 {
@@ -211,6 +214,7 @@ main {
 }
 .main-first-section div {
   display: flex;
+  flex-wrap: wrap;
   gap: 3.1rem;
   margin-top: 2.25rem;
 }
@@ -273,6 +277,7 @@ main {
   justify-content: center;
   gap: 1.9rem;
   margin-left: 3rem;
+  flex-wrap: wrap;
 }
 
 .third-section-card {
@@ -331,10 +336,10 @@ main {
 }
 .main-fourth-section .fifth-section-image,
 .main-fifth-section .fifth-section-image {
-  position: absolute;
-  top: -10.5rem;
-  left: 31rem;
-  width: 42rem;
+  margin-top: -11rem;
+  margin-left: -4rem;
+  position: relative;
+  z-index: 2;
 }
 
 .fourth-section-content,
@@ -391,6 +396,7 @@ main {
 .fifth-section-testimonial {
   width: 29.9rem;
   height: 9.5rem;
+  min-height: 9.5rem;
   margin-top: 2.2rem;
 }
 .fifth-section-testimonial img {
@@ -420,6 +426,7 @@ main {
 .card-container {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 .card-container .division-card {
   background-color: #c9e7f2;
@@ -541,7 +548,6 @@ main {
 .seventh-section-testimonial-list {
   display: flex;
   gap: 2.5rem;
-  flex-wrap: nowrap;
 }
 
 .main-eighth-section {
@@ -562,13 +568,18 @@ main {
   width: 9rem;
   margin: 5.1rem 0 5.1rem 2.3rem;
 }
-.main-eighth-section .first-stat {
+.main-eighth-section .stats-grouping {
+  display: flex;
+  gap: 1.8rem;
+  justify-content: center;
+}
+.main-eighth-section .stats-grouping .first-stat {
   margin-left: 2.6rem;
 }
-.main-eighth-section .second-stat {
+.main-eighth-section .stats-grouping .second-stat {
   margin-left: 7.6rem;
 }
-.main-eighth-section .third-stat {
+.main-eighth-section .stats-grouping .third-stat {
   margin-left: 6rem;
 }
 .main-eighth-section .eighth-decoration-design {
@@ -578,7 +589,7 @@ main {
 }
 
 .eighth-section-stats {
-  margin: 4.3rem 0 3.9rem 0;
+  margin: 3rem 0 3.9rem 0;
   color: white;
 }
 .eighth-section-stats h1 {
@@ -671,6 +682,7 @@ main {
 }
 .company-join-section .footer-input-button-group {
   display: flex;
+  flex-wrap: wrap;
 }
 .company-join-section button {
   height: 3.25rem;
@@ -692,6 +704,254 @@ main {
   text-align: center;
   color: #181433;
   margin: 2.5rem auto 3.6rem;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    gap: 10rem;
+    justify-self: center;
+  }
+  .decoration-design3,
+  .decoration-design1 {
+    top: 55rem;
+  }
+  .main-first-section {
+    padding-top: 1rem;
+    height: fit-content;
+    top: 65rem;
+  }
+  .main-first-section div {
+    padding-left: 2rem;
+  }
+  .main-second-section {
+    gap: 1.5rem;
+    margin-top: 12rem;
+  }
+  .main-fourth-section {
+    justify-content: center;
+    margin-left: 1rem;
+  }
+  .main-fourth-section .fourth-section-content {
+    flex-shrink: 1;
+    width: 100%;
+  }
+  .main-fourth-section .fourth-section-content h1 {
+    width: 26rem;
+  }
+  .main-fourth-section .payment-track-image {
+    flex-shrink: 2;
+    width: 30rem;
+    height: auto;
+  }
+  .main-fourth-section .decoration-image {
+    left: 20rem;
+    top: 3rem;
+    width: 4.5rem;
+  }
+  .main-fifth-section {
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+  .main-fifth-section .fifth-section-image {
+    flex-shrink: 2;
+    width: 30rem;
+    height: auto;
+    margin-top: 0rem;
+  }
+  .main-fifth-section .fifth-section-content {
+    flex-shrink: 1;
+    width: 100%;
+  }
+  .main-sixth-section {
+    padding-left: 9rem;
+  }
+  .seventh-section-testimonial-list {
+    flex-wrap: wrap;
+  }
+  .main-eighth-section {
+    height: fit-content;
+    flex-direction: column;
+  }
+  .main-eighth-section .eighth-section-paragraph {
+    width: 27rem;
+    font-size: 3rem;
+  }
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+  nav .menu-bar {
+    display: block;
+    width: 3rem;
+  }
+  .nav-list,
+  .btn-auth {
+    display: none;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+    margin-left: 0.9rem;
+  }
+  .decoration-design1,
+  .decoration-design2,
+  .decoration-design3,
+  .decoration-image,
+  .sixth-decoration-design,
+  .eighth-decoration-design,
+  .seventh-decoration-design,
+  .d {
+    display: none;
+  }
+  .header-hero {
+    flex-wrap: wrap;
+    margin-left: 1rem;
+  }
+  .header-hero .hero-content {
+    width: 24rem;
+    height: 22rem;
+    padding-top: 3.75rem;
+    padding-bottom: 0rem;
+    gap: 0rem;
+  }
+  .header-hero .hero-content h1 {
+    font: 700 2.3rem "Manrope", sans-serif;
+    margin-bottom: 1.3rem;
+  }
+  .header-hero .hero-content .btn-wrapper {
+    flex-wrap: wrap;
+    gap: 1.1rem;
+    margin-bottom: 2.3rem;
+  }
+  .hero-image img {
+    width: 408px;
+  }
+  .main-first-section {
+    top: 77rem;
+    height: fit-content;
+  }
+  .main-first-section h2 {
+    padding-left: 1rem;
+  }
+  .main-first-section div {
+    padding-left: 2rem;
+  }
+  .main-second-section {
+    margin-top: 13rem;
+    flex-wrap: wrap;
+  }
+  .main-second-section .second-section-content {
+    padding-left: 1rem;
+  }
+  .main-second-section .second-section-testimonial {
+    margin: 0.8rem 1rem;
+  }
+  .main-third-section {
+    margin: 1rem;
+  }
+  .main-fourth-section {
+    margin: 2rem 0 0 -4rem;
+    flex-wrap: wrap;
+  }
+  .main-fourth-section .payment-track-image {
+    margin-bottom: -3rem;
+    width: 30rem;
+    height: 19rem;
+  }
+  .main-fourth-section .fourth-section-content {
+    width: 13rem;
+    height: 23rem;
+  }
+  .main-fourth-section .fourth-section-content h1 {
+    width: 21rem;
+    font: 800 2rem "Manrope", sans-serif;
+  }
+  .main-fourth-section .fourth-section-content .second-paragraph {
+    width: 19.5rem;
+  }
+  .main-fifth-section {
+    margin-left: -3rem;
+    flex-wrap: wrap;
+  }
+  .main-fifth-section .fifth-section-content {
+    margin-top: 11.5rem;
+    width: 13rem;
+    height: 23rem;
+  }
+  .main-fifth-section .fifth-section-content h1 {
+    width: 22rem;
+    font: 800 2rem "Manrope", sans-serif;
+  }
+  .main-fifth-section .fifth-section-content .second-paragraph {
+    width: 20rem;
+  }
+  .main-fifth-section .fifth-section-content .fifth-section-testimonial {
+    margin: 1rem -2.5rem;
+    width: 23rem;
+  }
+  .main-fifth-section .fifth-section-content .fifth-section-testimonial p {
+    width: 22rem;
+  }
+  .main-fifth-section .fifth-section-image {
+    margin-top: 4.5rem;
+    margin-left: -2rem;
+    width: 26rem;
+    height: 29rem;
+  }
+  .main-sixth-section .sixth-section-container {
+    margin-left: -10rem;
+    padding-left: 3rem;
+  }
+  .main-sixth-section .sixth-section-container h1 {
+    font: 800 2.3rem "Manrope", sans-serif;
+    width: 23rem;
+  }
+  .main-sixth-section .sixth-section-container p {
+    font: 600 1rem/1.6 "Manrope", sans-serif;
+    width: 22rem;
+  }
+  .main-sixth-section .card-container {
+    margin: 0 -1.5rem;
+  }
+  .main-seventh-section {
+    margin-left: 1rem;
+  }
+  .main-seventh-section h1 {
+    font: 800 2.5rem "Manrope", sans-serif;
+  }
+  .main-seventh-section .seventh-section-paragraph {
+    font: 600 1rem/1.6 "Manrope", sans-serif;
+    width: 22rem;
+  }
+  .main-seventh-section .seventh-section-testimonial {
+    flex-wrap: wrap;
+    width: 22rem;
+    height: fit-content;
+  }
+  .main-eighth-section {
+    height: fit-content;
+    flex-direction: column;
+  }
+  .main-eighth-section .eighth-section-paragraph {
+    font: 400 1.4rem/1.9 "Manrope", sans-serif;
+    width: 18rem;
+    text-align: center;
+  }
+  .main-eighth-section .stats-grouping {
+    flex-wrap: wrap;
+    gap: -1rem;
+  }
+  .main-eighth-section .stats-grouping .first-stat {
+    margin-left: 0;
+  }
+  .main-eighth-section .stats-grouping .second-stat, .main-eighth-section .stats-grouping .third-stat {
+    margin-left: 3rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
