@@ -754,7 +754,6 @@ main {
 }
 .company-join-section .footer-input-button-group {
   display: flex;
-  flex-wrap: wrap;
 }
 .company-join-section button {
   height: 3.25rem;
@@ -878,6 +877,9 @@ main {
   .footer-container {
     grid-template-columns: 1fr;
     margin-left: 0.9rem;
+  }
+  .footer-input-button-group {
+    flex-wrap: wrap;
   }
   .decoration-design1,
   .decoration-design2,
